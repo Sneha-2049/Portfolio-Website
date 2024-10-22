@@ -1,0 +1,172 @@
+.About-Me {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    overflow-x: hidden;
+}
+
+.About-Me h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.profile-discription {
+    display: flex;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+.profile-img {
+    width: 300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.carrer-discription {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 550px);
+    gap: 60px;
+}
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.skills:hover {
+    transform: scale(1.05);
+
+}
+
+.skills h3 {
+    min-width: 140px;
+    font-weight: 700;
+}
+
+.line-chart {
+    display: inline-block;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    animation: fill 4s linear;
+}
+
+.line-width1 {
+    width: 80%;
+
+}
+
+.line-width2 {
+    max-width: 75%;
+}
+
+.line-width3 {
+    width: 70%;
+}
+
+.line-width4 {
+    width: 60%;
+}
+
+.line-width5 {
+    width: 45%;
+}
+
+.line-width6 {
+    width: 60%;
+}
+
+.line-width7 {
+    width: 50%;
+}
+
+.About-acheivements {
+    display: flex;
+    padding: 0 100px;
+    justify-content: space-around;
+}
+
+.acheivement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.acheivement:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+
+.acheivement h2 {
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.acheivement p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media(max-width: 700px) {
+    .profile-discription {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .About-Me h1 {
+        font-size: 35px;
+    }
+
+    .carrer-discription {
+        width: 330px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .skills h3 {
+        min-width: 90px;
+        text-align: left;
+    }
+
+    .skills {
+        gap: 5px;
+    }
+
+    .About-acheivements {
+        padding: 0 20px;
+    }
+
+    .acheivement h2 {
+        font-size: 30px;
+    }
+
+    .acheivement p {
+        font-size: 10px;
+    }
+
+}

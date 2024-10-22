@@ -1,0 +1,90 @@
+.work-section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.work-section h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.project-container {
+    display: grid;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 350px);
+    gap: 50px;
+}
+
+.work-card {
+    height: 250px;
+    background-size: cover;
+    cursor: pointer;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    transition: all 1.2s;
+}
+
+.work-card:hover {
+    transform: scale(1.15);
+}
+
+.github-link {
+    background-color: transparent;
+    display: inline-block;
+}
+
+.fa-github {
+    font-size: 35px;
+    border-radius: 50%;
+}
+
+.seemore-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(276deg, #DA7C25 0.36%, #B923E1 102.06%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.seemore-btn span {
+    background-color: transparent;
+}
+
+@media(max-width: 700px) {
+    .project-container {
+        grid-template-columns: repeat(2, 170px);
+        gap: 20px;
+    }
+
+    .work-section h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .work-card {
+        height: 140px;
+    }
+
+    .fa-github {
+        font-size: 25px;
+    }
+
+    .seemore-btn {
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+
+    }
+
+}

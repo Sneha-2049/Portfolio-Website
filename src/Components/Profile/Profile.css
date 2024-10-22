@@ -1,0 +1,182 @@
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.profile-pic {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.profile-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    width: 750px;
+}
+
+.profile-description h1 {
+    font-size: 50px;
+    line-height: 60px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.rest-desc {
+    padding-left: 351.16px;
+
+}
+
+.typing {
+    border-right: 2px solid white;
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    position: absolute;
+    width: 351.16px;
+    animation: typingDeleting 6s steps(30, end) infinite, blink 0.75s step-end infinite;
+}
+
+@keyframes typingDeleting {
+    0% {
+        width: 0;
+    }
+
+    48%,
+    50% {
+        width: 351.16px;
+    }
+
+    98%,
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+.profile-description p {
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.profile-btns {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(276deg, #DA7C25 0.36%, #B923E1 102.06%);
+}
+
+.contact-btn a {
+    background-color: transparent;
+}
+
+.contact-btn:hover {
+    border: 2px solid white;
+}
+
+.resume-btn {
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #FFF;
+}
+
+.resume-btn:hover {
+    border-color: #B415FF;
+}
+
+@media(max-width: 700px) {
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profile-description {
+        width: 350px;
+    }
+
+    .profile-description h1 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .typing {
+        width: 169.7px;
+    }
+
+    @keyframes typingDeleting {
+        0% {
+            width: 0;
+        }
+
+        48%,
+        50% {
+            width: 169.7px;
+        }
+
+        98%,
+        100% {
+            width: 0;
+        }
+    }
+
+    .rest-desc {
+        padding-left: 169.7px;
+
+    }
+
+    .profile-description p {
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .contact-btn {
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+
+    .profile-btns {
+        gap: 25px;
+    }
+
+    .resume-btn {
+        width: 120px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+}
