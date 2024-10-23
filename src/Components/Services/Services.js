@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 import './Services.css';
 import Services_Data from '../../Assets/Services_Data'
