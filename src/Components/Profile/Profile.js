@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './Profile.css';
-import profile from '../../Assets/profile.jpg'
+import profile from '../../Assets/profile-image.jpg'
 import { Link, animateScroll as scroll } from 'react-scroll';
 import { motion, useInView, useAnimation } from 'framer-motion'
 import { fadeUp } from '../../variants';
@@ -30,7 +30,7 @@ function Profile() {
       <motion.div
         className='profile-description'>
         <h1>
-          <span className='typing'>I'm Sneha Sahu</span><span className='rest-desc'>,frontend Web developer based in India.</span>
+          <span className='typing'>I'm Sneha Sahu</span><span className='rest-desc'>, frontend Web developer based in India.</span>
         </h1>
         <motion.p
           ref={ref}

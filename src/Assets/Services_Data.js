@@ -28,7 +28,7 @@ const Services_Data = [
     },
     {
         s_no: "06",
-        s_name: "Presention",
+        s_name: "Presentation",
         s_desc: "I have strong presentation skills, capable of effectively communicating ideas and information in a clear and engaging manner.",
 
     }

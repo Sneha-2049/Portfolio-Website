@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './About.css';
-import profile from '../../Assets/profile.jpg'
+import profile from '../../Assets/profile-pic.jpg'
 import { scaleDown } from '../../variants'
 import { motion, useInView, useAnimation } from 'framer-motion'
 function About() {
