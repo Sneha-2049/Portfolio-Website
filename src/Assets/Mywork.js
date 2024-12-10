@@ -1,6 +1,6 @@
 import AmazonClone from './AmazonClone.png'
 import YoutubeClone from './YoutubeClone.png'
-import NewsApp from './NewsApp.png'
+import News from './News.png'
 import WeatherApp from './WeatherApp.png'
 import TicTacToe from './TicTacTOe.png'
 import Calculator from './Calculator.png'
@@ -18,7 +18,7 @@ const Mywork_Data =[
          github_link: "https://github.com/Sneha-2049/Youtube-Clone"
     },
     {
-        project_img: NewsApp,
+        project_img: News,
          project_link: "https://usemyweatherapp.netlify.app/",
          github_link: "https://github.com/Sneha-2049/NewsApp"
     },

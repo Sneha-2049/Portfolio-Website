@@ -44,6 +44,7 @@
     border: none;
     background: linear-gradient(276deg, #DA7C25 0.36%, #B923E1 102.06%);
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .connect-btn a {
