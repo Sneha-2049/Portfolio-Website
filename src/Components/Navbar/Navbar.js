@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import './Navbar.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
-import { menu } from 'framer-motion/client';
+import { Link} from 'react-scroll';
 
 function Navbar() {
     const menuRef = useRef();
@@ -14,9 +13,9 @@ function Navbar() {
     return (
         <div className='Navbar'>
             <h1 className='logo'>Sneha</h1>
-            <span class="material-symbols-outlined menu-open" onClick={openMenu}>menu</span>
+            <span className="material-symbols-outlined menu-open" onClick={openMenu}>menu</span>
             <ul ref={menuRef} className='Nav-items'>
-                <span class="material-symbols-outlined menu-close" onClick={closeMenu}>close</span>
+                <span className="material-symbols-outlined menu-close" onClick={closeMenu}>close</span>
                 <Link className='menu' to="Home" smooth={true} duration={500}><p>Home</p><hr /></Link>
                 <Link className='menu' to="About" smooth={true} duration={500}><p>About</p><hr /></Link>
                 <Link className='menu' to="Project" smooth={true} duration={500}><p>Projects</p><hr /></Link>

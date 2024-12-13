@@ -1,28 +1,13 @@
-import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';
 import './Profile.css';
 import profile from '../../Assets/profile-image.jpg'
-import { Link, animateScroll as scroll } from 'react-scroll';
-import { motion, useInView, useAnimation } from 'framer-motion'
-import { fadeUp } from '../../variants';
+import { Link} from 'react-scroll';
+import { motion, useInView} from 'framer-motion'
 function Profile() {
-  const controls = useAnimation();
   const { ref, inView } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: { staggerChildren: 0.8 },
-    },
-  };
-
-  const childVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
   return (
     <div id="Home" className='profile-info'>
       <div className='profile-pic' style={{ backgroundImage: `url(${profile})` }}>
@@ -30,7 +15,7 @@ function Profile() {
       <motion.div
         className='profile-description'>
         <h1>
-          <span className='typing'>I'm Anjali Sahu</span><span className='rest-desc'>, frontend Web developer based in India.</span>
+          <span className='typing'>I'm Sneha Sahu</span><span className='rest-desc'>, frontend Web developer based in India.</span>
         </h1>
         <motion.p
           ref={ref}

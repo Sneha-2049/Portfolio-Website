@@ -1,11 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './Work.css'
 import Mywork_Data from '../../Assets/Mywork'
 import { motion } from 'framer-motion'
 import { scaleUp } from '../../variants'
 
 function Work() {
-    console.log(Mywork_Data)
     return (
         <div id="Project" className="work-section">
             <h1>My Latest Work</h1>
@@ -20,7 +19,7 @@ function Work() {
                     Mywork_Data.map((work, index) => {
                         return <div key={index} className="work-card" onClick={() => { window.location.href = work.project_link; }} style={{ backgroundImage: `url(${work.project_img})` }}>
                             <a href={work.github_link} target="_blank" rel="noopener noreferrer" className="github-link" onClick={(e) => e.stopPropagation()} >
-                                <i class="fab fa-github"></i>
+                                <i className="fab fa-github"></i>
                             </a>
                         </div>
                     })

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link} from 'react-scroll';
 function Footer() {
     return (
         <div className='footer'>
@@ -9,17 +9,17 @@ function Footer() {
                     <h1>Sneha Sahu</h1>
                     <p>I am a frontend developer from, India with 2 year of experience in technologies like Html, Css, Javascript and React.js</p>
                 </div>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/sneha-sahu-898816259" target="_blank">
-                        <i class="fab fa-linkedin"></i>
+                <div className="social-icons">
+                    <a href="https://www.linkedin.com/in/sneha-sahu-898816259" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-linkedin"></i>
                     </a>
 
-                    <a href="https://github.com/sneha-2049" target="_blank">
-                        <i class="fab fa-github"></i>
+                    <a href="https://github.com/sneha-2049" target="_blank" rel="noopener noreferrer">
+                        <i className="fab fa-github"></i>
                     </a>
 
-                    <a href="mailto:snehasahualb@gmail.com">
-                        <i class="fas fa-envelope"></i>
+                    <a href="mailto:snehasahualb@gmail.com" rel="noopener noreferrer">
+                        <i className="fas fa-envelope"></i>
                     </a>
                 </div> </div>
             <hr />

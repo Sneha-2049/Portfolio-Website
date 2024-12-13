@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import Navbar from './Components/Navbar/Navbar'
 import Profile from './Components/Profile/Profile'
 import About from './Components/About/About'

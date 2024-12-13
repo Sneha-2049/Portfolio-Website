@@ -1,14 +1,10 @@
-import React, { useRef } from 'react';
-import ReactDOM from 'react-dom/client';
+import React from 'react';
 import './Services.css';
 import Services_Data from '../../Assets/Services_Data'
 import { motion } from 'framer-motion'
 import { scaleUp } from '../../variants'
-import { style } from 'framer-motion/client';
 
 function Services() {
-    const inputRef = useRef(null);
-    console.log(Services_Data)
     return (
         <div id='Service' className='About-services'>
             <h1>My Services</h1>
