@@ -15,7 +15,7 @@ function Profile() {
       <motion.div
         className='profile-description'>
         <h1>
-          <span className='typing'>I'm Sneha Sahu</span><span className='rest-desc'>, frontend Web developer based in India.</span>
+          <span className='typing'>I'm Anjali Sahu</span><span className='rest-desc'>, frontend Web developer based in India.</span>
         </h1>
         <motion.p
           ref={ref}
