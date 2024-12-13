@@ -10,7 +10,7 @@ function About() {
             <div className='profile-discription'>
                 <div className='profile-img' style={{ backgroundImage: `url(${profile})` }}></div>
                 <div className='carrer-discription'>
-                    <p>I am a passionate and driven undergraduate Computer Science Engineering student, currently in my third year. As a frontend web developer, I enjoy designing and building user-friendly, responsive websites that offer seamless digital experiences, With a keen interest in creating innovative solutions, I strive to bridge creativity and functionality in every project I work on, I’m always eager to learn and grow, embracing new challenges to enhance my expertise and contribute to meaningful initiatives.</p>
+                    <p>I am a passionate and driven undergraduate Computer Science Engineering student, currently in my third year. As a frontend web developer, I enjoy designing and building user-friendly, responsive websites that offer seamless digital experiences, With a keen interest in creating innovative solutions. I strive to bridge creativity and functionality in every project I work on, I’m always eager to learn and grow, embracing new challenges to enhance my expertise and contribute to meaningful initiatives.</p>
                     <div className='skills-section'>
                         <div className='skills'>
                             <h3>HTML & CSS</h3>
