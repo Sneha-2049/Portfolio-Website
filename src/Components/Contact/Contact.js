@@ -43,7 +43,7 @@ function Contact() {
           </div>
           <div className='contact-mode'>
             <span className="material-symbols-outlined">perm_phone_msg</span>
-            <p>9993023272</p>
+            <p>XXXXXXXXXX</p>
           </div>
           <div className='contact-mode'>
             <span className="material-symbols-outlined">home_pin</span>
