@@ -7,7 +7,7 @@ function Footer() {
             <div className='footer-section'>
                 <div className='description'>
                     <h1>Sneha Sahu</h1>
-                    <p>I am a frontend developer from, India with 2 year of experience in technologies like Html, Css, Javascript and React.js</p>
+                    <p>I am a frontend developer from, India with 2 year of experience in technologies like HTML, CSS, Javascript and React.js</p>
                 </div>
                 <div className="social-icons">
                     <a href="https://www.linkedin.com/in/sneha-sahu-898816259" target="_blank" rel="noopener noreferrer">
@@ -24,7 +24,7 @@ function Footer() {
                 </div> </div>
             <hr />
             <div className='footer-bottom'>
-                <p>⚪️ 2024 Sneha Sahu. All right reserved</p>
+                <p>⚪️ 2025 Sneha Sahu. All right reserved</p>
                 <div className='Acheivement'>
                     <a href='https://drive.google.com/file/d/1WzhIcVLadvyYs3lh8eIQ8IBCEIgevzpI/view?usp=drive_link'><h4>Java Certificate</h4></a>
                     <a href='https://drive.google.com/file/d/1dLATnGE89teSEHcemj_RJ9zy7ZEm02Gy/view?usp=sharing'><h4>C Certificate</h4></a>
