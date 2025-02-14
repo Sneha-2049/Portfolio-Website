@@ -19,7 +19,7 @@ const Mywork_Data =[
     },
     {
         project_img: News,
-         project_link: "https://usemyweatherapp.netlify.app/",
+         project_link: "https://sneha-2049.github.io/NewsApp",
          github_link: "https://github.com/Sneha-2049/NewsApp"
     },
     {
